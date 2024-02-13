@@ -15,12 +15,6 @@
 
 ## Как запустить dev-версию сайта
 
-## Deploy with Docker & HTTPS
-
-[Ссылка на инструкцию.](https://github.com/alexnv/21-dvmn-star-burger/blob/main/DOCKER_DEPLOY_README.md)
-
-## Запуск с Docker
-
 Установите Docker и Docker-compose
 
 [Ссылка на инструкцию.](https://www.howtogeek.com/devops/how-to-install-docker-and-docker-compose-on-linux/)
@@ -80,11 +74,11 @@ Cоздайте админ пользователя:
 docker exec -it star_burger_web python manage.py createsuperuser
 ```
 
-Логин от админки - `admin`, пароль - `123456`
-
 Теперь можете зайти на страницу  [http://127.0.0.1/](http://127.0.0.1/).
 
 ![](https://i.imgur.com/AOP6G4c.png)
+
+## Как запустить prod-версию сайта
 
 Настройте бэкенд:
 
